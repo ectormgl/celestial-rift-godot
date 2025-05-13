@@ -624,6 +624,8 @@ layer_2/name = "decoração"
 position = Vector2(10, 20)
 poder_scene = ExtResource("5_085hd")
 
+[node name="Camera2D" type="Camera2D" parent="player"]
+
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 physics_material_override = SubResource("PhysicsMaterial_800px")
 
